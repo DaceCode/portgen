@@ -26,3 +26,4 @@ git clone https://github.com/bkanhu/portgen.git
 ## changelog
 * 02-Jan-2020 initial-design(First Build)
 
+Inspired by [@imfunniee](https://github.com/imfunniee/gitfolio)
