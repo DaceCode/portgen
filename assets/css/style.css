@@ -28,6 +28,7 @@ body{
             background: #FF5252;
         }
 /* profile section start here*/
+
 .profile{
     background-color: hsl(240, 13%, 16%);
     height: 100vh;
@@ -38,11 +39,15 @@ body{
     width: 200px;
     border-radius: 50%;
     margin-top: 30px;
-    margin-bottom: 50px;
+    /* margin-bottom: 5px; */
 }
 .leftAlign{
-    text-align: left ;
+    text-align: left;
     margin: -1px;
+}
+.shortAbout-left{
+    /* margin: 25px; */
+    margin-left: 25px;
 }
 a {
     color: white !important;
@@ -100,14 +105,21 @@ a {
 /* profile section end here*/
 
 /* portfolio section */
+.workSection{
+    margin-top: -5px;
+}
 .portfolio{
     background-color: #3b3b4b;
 
 }
 .card{
     background-color: #23232d;
-    margin: 5px;
-    padding-left: 10px;
+    /* margin: 5px; */
+    /* padding-left: 10px; */
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    padding: 5px 0 5px 10px;
+    /* padding: 10px; */
     
 }
 .cardTitle{
@@ -125,8 +137,7 @@ a {
 }
 /* language color*/
 .lang {
-    position: relative;
-    
+    position: relative; 
 }
 
 .lang::after {
@@ -148,10 +159,30 @@ a {
 
 /* media queries */
  @media screen and (max-width: 599px) {
-    .profileImage{
-        margin-top: 10px;
-        margin-bottom: 15px;
+    .profile{
+        height: 90vh;
     }
+    .profileImage{
+        height: 150px;
+        width: 150px;
+        margin-bottom: 25px;
+    }
+    .workSection{
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    
+.card{
+    /* background-color: #23232d; */
+    /* margin: 5px; */
+    /* padding-left: 10px; */
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    margin: 5px;
+
+    /* padding: 10px; */
+    
+}
 }
 @media screen and (min-width: 600px) and (max-width: 899px) {
     .profile{
